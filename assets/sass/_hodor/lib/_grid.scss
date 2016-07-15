@@ -316,13 +316,13 @@ $col11_12		:(100%/11);
 @include makeGridByNumber(#{$gridName});
 
 @include breakpoint($tablet){
-	@include makeGridByNumber(_md);
+	@include makeGridByNumber(tablet);
 }
 @include breakpoint($phablet){
-	@include makeGridByNumber(_sm);
+	@include makeGridByNumber(phablet);
 }
 @include breakpoint($phone){
-	@include makeGridByNumber(_xs);
+	@include makeGridByNumber(phone);
 }
 
 
@@ -331,14 +331,14 @@ $col11_12		:(100%/11);
 @include makeOff(off);
 
 @include breakpoint($tablet){
-	@include makeCol(_md);
-	@include makeOff(_md);
+	@include makeCol(tablet);
+	@include makeOff(tablet);
 }
 @include breakpoint($phablet){
-	@include makeCol(_sm);
-	@include makeOff(_sm);
+	@include makeCol(phablet);
+	@include makeOff(phablet);
 }
 @include breakpoint($phone){
-	@include makeCol(_xs);
-	@include makeOff(_xs);
+	@include makeCol(phone);
+	@include makeOff(phone);
 }

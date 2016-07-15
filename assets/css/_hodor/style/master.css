@@ -457,8 +457,13 @@ body {
   line-height: 1.618;
   color: #444444;
 }
+/* line 18, ../../../sass/_hodor/style/master.scss */
+body ::selection {
+  color: #FFFFFF;
+  background: #E00099;
+}
 
-/* line 19, ../../../sass/_hodor/style/master.scss */
+/* line 23, ../../../sass/_hodor/style/master.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: inherit;
   font-weight: bold;
@@ -466,81 +471,86 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 3rem;
 }
 
-/* line 25, ../../../sass/_hodor/style/master.scss */
+/* line 29, ../../../sass/_hodor/style/master.scss */
 h1 {
   font-size: 4.3rem;
 }
 
-/* line 28, ../../../sass/_hodor/style/master.scss */
+/* line 32, ../../../sass/_hodor/style/master.scss */
 h2 {
   font-size: 2.7rem;
 }
 
-/* line 31, ../../../sass/_hodor/style/master.scss */
+/* line 35, ../../../sass/_hodor/style/master.scss */
 h3 {
   font-size: 2.4rem;
 }
 
-/* line 34, ../../../sass/_hodor/style/master.scss */
+/* line 38, ../../../sass/_hodor/style/master.scss */
 h4 {
   font-size: 2.1rem;
 }
 
-/* line 37, ../../../sass/_hodor/style/master.scss */
+/* line 41, ../../../sass/_hodor/style/master.scss */
 h5 {
   font-size: 1.8rem;
 }
 
-/* line 40, ../../../sass/_hodor/style/master.scss */
+/* line 44, ../../../sass/_hodor/style/master.scss */
 h6 {
   font-size: 1.6rem;
 }
 
-/* line 43, ../../../sass/_hodor/style/master.scss */
+/* line 47, ../../../sass/_hodor/style/master.scss */
 small {
   font-size: 1.3rem;
 }
 
-/* line 46, ../../../sass/_hodor/style/master.scss */
+/* line 50, ../../../sass/_hodor/style/master.scss */
 a {
   outline: none;
   text-decoration: none;
   color: #00B5E2;
 }
-/* line 18, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a:visited {
   color: #00B5E2;
 }
-/* line 21, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, ../../../../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a:focus {
   color: #E00099;
 }
-/* line 24, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a:hover {
   color: #E00099;
 }
-/* line 27, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../.rvm/gems/ruby-2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a:active {
   color: #E00099;
 }
 
-/* line 51, ../../../sass/_hodor/style/master.scss */
+/* line 55, ../../../sass/_hodor/style/master.scss */
 p {
   margin-top: 0rem;
   margin-bottom: 3rem;
 }
 
-/* line 55, ../../../sass/_hodor/style/master.scss */
+/* line 59, ../../../sass/_hodor/style/master.scss */
 strong, b {
   font-weight: bold;
 }
 
-/* line 58, ../../../sass/_hodor/style/master.scss */
+/* line 62, ../../../sass/_hodor/style/master.scss */
 em {
   font-style: italic;
 }
 
-/* line 61, ../../../sass/_hodor/style/master.scss */
+/* line 65, ../../../sass/_hodor/style/master.scss */
+mark {
+  background: #FFDD00;
+}
+
+/* line 68, ../../../sass/_hodor/style/master.scss */
 .container {
   max-width: 1230px;
   margin: 0 auto;
@@ -729,219 +739,219 @@ em {
 
 @media (min-width: 768px) and (max-width: 1199px) {
   /* line 30, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_md1"] > .col, [class*="_md1"] > [class*='col'] {
+  [class*="tablet1"] > .col, [class*="tablet1"] > [class*='col'] {
     flex-basis: 100%;
     max-width: 100%;
   }
 
   /* line 34, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_md2"] > .col, [class*="_md2"] > [class*='col'] {
+  [class*="tablet2"] > .col, [class*="tablet2"] > [class*='col'] {
     flex-basis: 50%;
     max-width: 50%;
   }
 
   /* line 38, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_md3"] > .col, [class*="_md3"] > [class*='col'] {
+  [class*="tablet3"] > .col, [class*="tablet3"] > [class*='col'] {
     flex-basis: 33.33333%;
     max-width: 33.33333%;
   }
 
   /* line 42, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_md4"] > .col, [class*="_md4"] > [class*='col'] {
+  [class*="tablet4"] > .col, [class*="tablet4"] > [class*='col'] {
     flex-basis: 25%;
     max-width: 25%;
   }
 
   /* line 46, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_md5"] > .col, [class*="_md5"] > [class*='col'] {
+  [class*="tablet5"] > .col, [class*="tablet5"] > [class*='col'] {
     flex-basis: 20%;
     max-width: 20%;
   }
 
   /* line 50, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_md6"] > .col, [class*="_md6"] > [class*='col'] {
+  [class*="tablet6"] > .col, [class*="tablet6"] > [class*='col'] {
     flex-basis: 16.66667%;
     max-width: 16.66667%;
   }
 
   /* line 54, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_md7"] > .col, [class*="_md7"] > [class*='col'] {
+  [class*="tablet7"] > .col, [class*="tablet7"] > [class*='col'] {
     flex-basis: 14.28571%;
     max-width: 14.28571%;
   }
 
   /* line 58, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_md8"] > .col, [class*="_md8"] > [class*='col'] {
+  [class*="tablet8"] > .col, [class*="tablet8"] > [class*='col'] {
     flex-basis: 12.5%;
     max-width: 12.5%;
   }
 
   /* line 62, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_md9"] > .col, [class*="_md9"] > [class*='col'] {
+  [class*="tablet9"] > .col, [class*="tablet9"] > [class*='col'] {
     flex-basis: 11.11111%;
     max-width: 11.11111%;
   }
 
   /* line 66, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_md10"] > .col, [class*="_md10"] > [class*='col'] {
+  [class*="tablet10"] > .col, [class*="tablet10"] > [class*='col'] {
     flex-basis: 10%;
     max-width: 10%;
   }
 
   /* line 70, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_md11"] > .col, [class*="_md11"] > [class*='col'] {
+  [class*="tablet11"] > .col, [class*="tablet11"] > [class*='col'] {
     flex-basis: 9.09091%;
     max-width: 9.09091%;
   }
 
   /* line 74, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_md12"] > .col, [class*="_md12"] > [class*='col'] {
+  [class*="tablet12"] > .col, [class*="tablet12"] > [class*='col'] {
     flex-basis: 8.33333%;
     max-width: 8.33333%;
   }
 }
 @media (min-width: 640px) and (max-width: 767px) {
   /* line 30, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_sm1"] > .col, [class*="_sm1"] > [class*='col'] {
+  [class*="phablet1"] > .col, [class*="phablet1"] > [class*='col'] {
     flex-basis: 100%;
     max-width: 100%;
   }
 
   /* line 34, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_sm2"] > .col, [class*="_sm2"] > [class*='col'] {
+  [class*="phablet2"] > .col, [class*="phablet2"] > [class*='col'] {
     flex-basis: 50%;
     max-width: 50%;
   }
 
   /* line 38, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_sm3"] > .col, [class*="_sm3"] > [class*='col'] {
+  [class*="phablet3"] > .col, [class*="phablet3"] > [class*='col'] {
     flex-basis: 33.33333%;
     max-width: 33.33333%;
   }
 
   /* line 42, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_sm4"] > .col, [class*="_sm4"] > [class*='col'] {
+  [class*="phablet4"] > .col, [class*="phablet4"] > [class*='col'] {
     flex-basis: 25%;
     max-width: 25%;
   }
 
   /* line 46, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_sm5"] > .col, [class*="_sm5"] > [class*='col'] {
+  [class*="phablet5"] > .col, [class*="phablet5"] > [class*='col'] {
     flex-basis: 20%;
     max-width: 20%;
   }
 
   /* line 50, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_sm6"] > .col, [class*="_sm6"] > [class*='col'] {
+  [class*="phablet6"] > .col, [class*="phablet6"] > [class*='col'] {
     flex-basis: 16.66667%;
     max-width: 16.66667%;
   }
 
   /* line 54, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_sm7"] > .col, [class*="_sm7"] > [class*='col'] {
+  [class*="phablet7"] > .col, [class*="phablet7"] > [class*='col'] {
     flex-basis: 14.28571%;
     max-width: 14.28571%;
   }
 
   /* line 58, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_sm8"] > .col, [class*="_sm8"] > [class*='col'] {
+  [class*="phablet8"] > .col, [class*="phablet8"] > [class*='col'] {
     flex-basis: 12.5%;
     max-width: 12.5%;
   }
 
   /* line 62, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_sm9"] > .col, [class*="_sm9"] > [class*='col'] {
+  [class*="phablet9"] > .col, [class*="phablet9"] > [class*='col'] {
     flex-basis: 11.11111%;
     max-width: 11.11111%;
   }
 
   /* line 66, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_sm10"] > .col, [class*="_sm10"] > [class*='col'] {
+  [class*="phablet10"] > .col, [class*="phablet10"] > [class*='col'] {
     flex-basis: 10%;
     max-width: 10%;
   }
 
   /* line 70, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_sm11"] > .col, [class*="_sm11"] > [class*='col'] {
+  [class*="phablet11"] > .col, [class*="phablet11"] > [class*='col'] {
     flex-basis: 9.09091%;
     max-width: 9.09091%;
   }
 
   /* line 74, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_sm12"] > .col, [class*="_sm12"] > [class*='col'] {
+  [class*="phablet12"] > .col, [class*="phablet12"] > [class*='col'] {
     flex-basis: 8.33333%;
     max-width: 8.33333%;
   }
 }
 @media (min-width: 320px) and (max-width: 639px) {
   /* line 30, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_xs1"] > .col, [class*="_xs1"] > [class*='col'] {
+  [class*="phone1"] > .col, [class*="phone1"] > [class*='col'] {
     flex-basis: 100%;
     max-width: 100%;
   }
 
   /* line 34, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_xs2"] > .col, [class*="_xs2"] > [class*='col'] {
+  [class*="phone2"] > .col, [class*="phone2"] > [class*='col'] {
     flex-basis: 50%;
     max-width: 50%;
   }
 
   /* line 38, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_xs3"] > .col, [class*="_xs3"] > [class*='col'] {
+  [class*="phone3"] > .col, [class*="phone3"] > [class*='col'] {
     flex-basis: 33.33333%;
     max-width: 33.33333%;
   }
 
   /* line 42, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_xs4"] > .col, [class*="_xs4"] > [class*='col'] {
+  [class*="phone4"] > .col, [class*="phone4"] > [class*='col'] {
     flex-basis: 25%;
     max-width: 25%;
   }
 
   /* line 46, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_xs5"] > .col, [class*="_xs5"] > [class*='col'] {
+  [class*="phone5"] > .col, [class*="phone5"] > [class*='col'] {
     flex-basis: 20%;
     max-width: 20%;
   }
 
   /* line 50, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_xs6"] > .col, [class*="_xs6"] > [class*='col'] {
+  [class*="phone6"] > .col, [class*="phone6"] > [class*='col'] {
     flex-basis: 16.66667%;
     max-width: 16.66667%;
   }
 
   /* line 54, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_xs7"] > .col, [class*="_xs7"] > [class*='col'] {
+  [class*="phone7"] > .col, [class*="phone7"] > [class*='col'] {
     flex-basis: 14.28571%;
     max-width: 14.28571%;
   }
 
   /* line 58, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_xs8"] > .col, [class*="_xs8"] > [class*='col'] {
+  [class*="phone8"] > .col, [class*="phone8"] > [class*='col'] {
     flex-basis: 12.5%;
     max-width: 12.5%;
   }
 
   /* line 62, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_xs9"] > .col, [class*="_xs9"] > [class*='col'] {
+  [class*="phone9"] > .col, [class*="phone9"] > [class*='col'] {
     flex-basis: 11.11111%;
     max-width: 11.11111%;
   }
 
   /* line 66, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_xs10"] > .col, [class*="_xs10"] > [class*='col'] {
+  [class*="phone10"] > .col, [class*="phone10"] > [class*='col'] {
     flex-basis: 10%;
     max-width: 10%;
   }
 
   /* line 70, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_xs11"] > .col, [class*="_xs11"] > [class*='col'] {
+  [class*="phone11"] > .col, [class*="phone11"] > [class*='col'] {
     flex-basis: 9.09091%;
     max-width: 9.09091%;
   }
 
   /* line 74, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="_xs12"] > .col, [class*="_xs12"] > [class*='col'] {
+  [class*="phone12"] > .col, [class*="phone12"] > [class*='col'] {
     flex-basis: 8.33333%;
     max-width: 8.33333%;
   }
@@ -1114,502 +1124,502 @@ em {
 
 @media (min-width: 768px) and (max-width: 1199px) {
   /* line 84, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_md1"] {
+  [class*='grid'] > [class*="tablet1"] {
     flex-basis: 8.33333%;
     max-width: 8.33333%;
   }
   /* line 88, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_md2"] {
+  [class*='grid'] > [class*="tablet2"] {
     flex-basis: 16.66667%;
     max-width: 16.66667%;
   }
   /* line 92, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_md3"] {
+  [class*='grid'] > [class*="tablet3"] {
     flex-basis: 25%;
     max-width: 25%;
   }
   /* line 96, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_md4"] {
+  [class*='grid'] > [class*="tablet4"] {
     flex-basis: 33.33333%;
     max-width: 33.33333%;
   }
   /* line 100, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_md5"] {
+  [class*='grid'] > [class*="tablet5"] {
     flex-basis: 41.66667%;
     max-width: 41.66667%;
   }
   /* line 104, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_md6"] {
+  [class*='grid'] > [class*="tablet6"] {
     flex-basis: 50%;
     max-width: 50%;
   }
   /* line 108, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_md7"] {
+  [class*='grid'] > [class*="tablet7"] {
     flex-basis: 58.33333%;
     max-width: 58.33333%;
   }
   /* line 112, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_md8"] {
+  [class*='grid'] > [class*="tablet8"] {
     flex-basis: 66.66667%;
     max-width: 66.66667%;
   }
   /* line 116, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_md9"] {
+  [class*='grid'] > [class*="tablet9"] {
     flex-basis: 75%;
     max-width: 75%;
   }
   /* line 120, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_md10"] {
+  [class*='grid'] > [class*="tablet10"] {
     flex-basis: 83.33333%;
     max-width: 83.33333%;
   }
   /* line 124, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_md11"] {
+  [class*='grid'] > [class*="tablet11"] {
     flex-basis: 91.66667%;
     max-width: 91.66667%;
   }
   /* line 128, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_md12"] {
+  [class*='grid'] > [class*="tablet12"] {
     flex-basis: 100%;
     max-width: 100%;
   }
 
   /* line 139, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_md0"] {
+  [class*="grid"] > [data-push-left*="tablet0"] {
     margin-left: 0;
   }
   /* line 142, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_md1"] {
+  [class*="grid"] > [data-push-left*="tablet1"] {
     margin-left: 8.33333%;
   }
   /* line 145, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_md2"] {
+  [class*="grid"] > [data-push-left*="tablet2"] {
     margin-left: 16.66667%;
   }
   /* line 148, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_md3"] {
+  [class*="grid"] > [data-push-left*="tablet3"] {
     margin-left: 25%;
   }
   /* line 151, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_md4"] {
+  [class*="grid"] > [data-push-left*="tablet4"] {
     margin-left: 33.33333%;
   }
   /* line 154, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_md5"] {
+  [class*="grid"] > [data-push-left*="tablet5"] {
     margin-left: 41.66667%;
   }
   /* line 157, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_md6"] {
+  [class*="grid"] > [data-push-left*="tablet6"] {
     margin-left: 50%;
   }
   /* line 160, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_md7"] {
+  [class*="grid"] > [data-push-left*="tablet7"] {
     margin-left: 50%;
   }
   /* line 163, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_md8"] {
+  [class*="grid"] > [data-push-left*="tablet8"] {
     margin-left: 58.33333%;
   }
   /* line 166, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_md9"] {
+  [class*="grid"] > [data-push-left*="tablet9"] {
     margin-left: 66.66667%;
   }
   /* line 169, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_md10"] {
+  [class*="grid"] > [data-push-left*="tablet10"] {
     margin-left: 75%;
   }
   /* line 172, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_md11"] {
+  [class*="grid"] > [data-push-left*="tablet11"] {
     margin-left: 83.33333%;
   }
   /* line 175, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_md12"] {
+  [class*="grid"] > [data-push-left*="tablet12"] {
     margin-left: 91.66667%;
   }
   /* line 179, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_md0"] {
+  [class*="grid"] > [data-push-right*="tablet0"] {
     margin-right: 0;
   }
   /* line 182, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_md1"] {
+  [class*="grid"] > [data-push-right*="tablet1"] {
     margin-right: 8.33333%;
   }
   /* line 185, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_md2"] {
+  [class*="grid"] > [data-push-right*="tablet2"] {
     margin-right: 16.66667%;
   }
   /* line 188, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_md3"] {
+  [class*="grid"] > [data-push-right*="tablet3"] {
     margin-right: 25%;
   }
   /* line 191, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_md4"] {
+  [class*="grid"] > [data-push-right*="tablet4"] {
     margin-right: 33.33333%;
   }
   /* line 194, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_md5"] {
+  [class*="grid"] > [data-push-right*="tablet5"] {
     margin-right: 41.66667%;
   }
   /* line 197, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_md6"] {
+  [class*="grid"] > [data-push-right*="tablet6"] {
     margin-right: 50%;
   }
   /* line 200, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_md7"] {
+  [class*="grid"] > [data-push-right*="tablet7"] {
     margin-right: 50%;
   }
   /* line 203, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_md8"] {
+  [class*="grid"] > [data-push-right*="tablet8"] {
     margin-right: 58.33333%;
   }
   /* line 206, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_md9"] {
+  [class*="grid"] > [data-push-right*="tablet9"] {
     margin-right: 66.66667%;
   }
   /* line 209, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_md10"] {
+  [class*="grid"] > [data-push-right*="tablet10"] {
     margin-right: 75%;
   }
   /* line 212, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_md11"] {
+  [class*="grid"] > [data-push-right*="tablet11"] {
     margin-right: 83.33333%;
   }
   /* line 215, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_md12"] {
+  [class*="grid"] > [data-push-right*="tablet12"] {
     margin-right: 91.66667%;
   }
 }
 @media (min-width: 640px) and (max-width: 767px) {
   /* line 84, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_sm1"] {
+  [class*='grid'] > [class*="phablet1"] {
     flex-basis: 8.33333%;
     max-width: 8.33333%;
   }
   /* line 88, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_sm2"] {
+  [class*='grid'] > [class*="phablet2"] {
     flex-basis: 16.66667%;
     max-width: 16.66667%;
   }
   /* line 92, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_sm3"] {
+  [class*='grid'] > [class*="phablet3"] {
     flex-basis: 25%;
     max-width: 25%;
   }
   /* line 96, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_sm4"] {
+  [class*='grid'] > [class*="phablet4"] {
     flex-basis: 33.33333%;
     max-width: 33.33333%;
   }
   /* line 100, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_sm5"] {
+  [class*='grid'] > [class*="phablet5"] {
     flex-basis: 41.66667%;
     max-width: 41.66667%;
   }
   /* line 104, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_sm6"] {
+  [class*='grid'] > [class*="phablet6"] {
     flex-basis: 50%;
     max-width: 50%;
   }
   /* line 108, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_sm7"] {
+  [class*='grid'] > [class*="phablet7"] {
     flex-basis: 58.33333%;
     max-width: 58.33333%;
   }
   /* line 112, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_sm8"] {
+  [class*='grid'] > [class*="phablet8"] {
     flex-basis: 66.66667%;
     max-width: 66.66667%;
   }
   /* line 116, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_sm9"] {
+  [class*='grid'] > [class*="phablet9"] {
     flex-basis: 75%;
     max-width: 75%;
   }
   /* line 120, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_sm10"] {
+  [class*='grid'] > [class*="phablet10"] {
     flex-basis: 83.33333%;
     max-width: 83.33333%;
   }
   /* line 124, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_sm11"] {
+  [class*='grid'] > [class*="phablet11"] {
     flex-basis: 91.66667%;
     max-width: 91.66667%;
   }
   /* line 128, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_sm12"] {
+  [class*='grid'] > [class*="phablet12"] {
     flex-basis: 100%;
     max-width: 100%;
   }
 
   /* line 139, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_sm0"] {
+  [class*="grid"] > [data-push-left*="phablet0"] {
     margin-left: 0;
   }
   /* line 142, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_sm1"] {
+  [class*="grid"] > [data-push-left*="phablet1"] {
     margin-left: 8.33333%;
   }
   /* line 145, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_sm2"] {
+  [class*="grid"] > [data-push-left*="phablet2"] {
     margin-left: 16.66667%;
   }
   /* line 148, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_sm3"] {
+  [class*="grid"] > [data-push-left*="phablet3"] {
     margin-left: 25%;
   }
   /* line 151, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_sm4"] {
+  [class*="grid"] > [data-push-left*="phablet4"] {
     margin-left: 33.33333%;
   }
   /* line 154, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_sm5"] {
+  [class*="grid"] > [data-push-left*="phablet5"] {
     margin-left: 41.66667%;
   }
   /* line 157, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_sm6"] {
+  [class*="grid"] > [data-push-left*="phablet6"] {
     margin-left: 50%;
   }
   /* line 160, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_sm7"] {
+  [class*="grid"] > [data-push-left*="phablet7"] {
     margin-left: 50%;
   }
   /* line 163, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_sm8"] {
+  [class*="grid"] > [data-push-left*="phablet8"] {
     margin-left: 58.33333%;
   }
   /* line 166, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_sm9"] {
+  [class*="grid"] > [data-push-left*="phablet9"] {
     margin-left: 66.66667%;
   }
   /* line 169, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_sm10"] {
+  [class*="grid"] > [data-push-left*="phablet10"] {
     margin-left: 75%;
   }
   /* line 172, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_sm11"] {
+  [class*="grid"] > [data-push-left*="phablet11"] {
     margin-left: 83.33333%;
   }
   /* line 175, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_sm12"] {
+  [class*="grid"] > [data-push-left*="phablet12"] {
     margin-left: 91.66667%;
   }
   /* line 179, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_sm0"] {
+  [class*="grid"] > [data-push-right*="phablet0"] {
     margin-right: 0;
   }
   /* line 182, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_sm1"] {
+  [class*="grid"] > [data-push-right*="phablet1"] {
     margin-right: 8.33333%;
   }
   /* line 185, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_sm2"] {
+  [class*="grid"] > [data-push-right*="phablet2"] {
     margin-right: 16.66667%;
   }
   /* line 188, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_sm3"] {
+  [class*="grid"] > [data-push-right*="phablet3"] {
     margin-right: 25%;
   }
   /* line 191, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_sm4"] {
+  [class*="grid"] > [data-push-right*="phablet4"] {
     margin-right: 33.33333%;
   }
   /* line 194, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_sm5"] {
+  [class*="grid"] > [data-push-right*="phablet5"] {
     margin-right: 41.66667%;
   }
   /* line 197, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_sm6"] {
+  [class*="grid"] > [data-push-right*="phablet6"] {
     margin-right: 50%;
   }
   /* line 200, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_sm7"] {
+  [class*="grid"] > [data-push-right*="phablet7"] {
     margin-right: 50%;
   }
   /* line 203, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_sm8"] {
+  [class*="grid"] > [data-push-right*="phablet8"] {
     margin-right: 58.33333%;
   }
   /* line 206, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_sm9"] {
+  [class*="grid"] > [data-push-right*="phablet9"] {
     margin-right: 66.66667%;
   }
   /* line 209, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_sm10"] {
+  [class*="grid"] > [data-push-right*="phablet10"] {
     margin-right: 75%;
   }
   /* line 212, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_sm11"] {
+  [class*="grid"] > [data-push-right*="phablet11"] {
     margin-right: 83.33333%;
   }
   /* line 215, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_sm12"] {
+  [class*="grid"] > [data-push-right*="phablet12"] {
     margin-right: 91.66667%;
   }
 }
 @media (min-width: 320px) and (max-width: 639px) {
   /* line 84, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_xs1"] {
+  [class*='grid'] > [class*="phone1"] {
     flex-basis: 8.33333%;
     max-width: 8.33333%;
   }
   /* line 88, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_xs2"] {
+  [class*='grid'] > [class*="phone2"] {
     flex-basis: 16.66667%;
     max-width: 16.66667%;
   }
   /* line 92, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_xs3"] {
+  [class*='grid'] > [class*="phone3"] {
     flex-basis: 25%;
     max-width: 25%;
   }
   /* line 96, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_xs4"] {
+  [class*='grid'] > [class*="phone4"] {
     flex-basis: 33.33333%;
     max-width: 33.33333%;
   }
   /* line 100, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_xs5"] {
+  [class*='grid'] > [class*="phone5"] {
     flex-basis: 41.66667%;
     max-width: 41.66667%;
   }
   /* line 104, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_xs6"] {
+  [class*='grid'] > [class*="phone6"] {
     flex-basis: 50%;
     max-width: 50%;
   }
   /* line 108, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_xs7"] {
+  [class*='grid'] > [class*="phone7"] {
     flex-basis: 58.33333%;
     max-width: 58.33333%;
   }
   /* line 112, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_xs8"] {
+  [class*='grid'] > [class*="phone8"] {
     flex-basis: 66.66667%;
     max-width: 66.66667%;
   }
   /* line 116, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_xs9"] {
+  [class*='grid'] > [class*="phone9"] {
     flex-basis: 75%;
     max-width: 75%;
   }
   /* line 120, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_xs10"] {
+  [class*='grid'] > [class*="phone10"] {
     flex-basis: 83.33333%;
     max-width: 83.33333%;
   }
   /* line 124, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_xs11"] {
+  [class*='grid'] > [class*="phone11"] {
     flex-basis: 91.66667%;
     max-width: 91.66667%;
   }
   /* line 128, ../../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="_xs12"] {
+  [class*='grid'] > [class*="phone12"] {
     flex-basis: 100%;
     max-width: 100%;
   }
 
   /* line 139, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_xs0"] {
+  [class*="grid"] > [data-push-left*="phone0"] {
     margin-left: 0;
   }
   /* line 142, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_xs1"] {
+  [class*="grid"] > [data-push-left*="phone1"] {
     margin-left: 8.33333%;
   }
   /* line 145, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_xs2"] {
+  [class*="grid"] > [data-push-left*="phone2"] {
     margin-left: 16.66667%;
   }
   /* line 148, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_xs3"] {
+  [class*="grid"] > [data-push-left*="phone3"] {
     margin-left: 25%;
   }
   /* line 151, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_xs4"] {
+  [class*="grid"] > [data-push-left*="phone4"] {
     margin-left: 33.33333%;
   }
   /* line 154, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_xs5"] {
+  [class*="grid"] > [data-push-left*="phone5"] {
     margin-left: 41.66667%;
   }
   /* line 157, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_xs6"] {
+  [class*="grid"] > [data-push-left*="phone6"] {
     margin-left: 50%;
   }
   /* line 160, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_xs7"] {
+  [class*="grid"] > [data-push-left*="phone7"] {
     margin-left: 50%;
   }
   /* line 163, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_xs8"] {
+  [class*="grid"] > [data-push-left*="phone8"] {
     margin-left: 58.33333%;
   }
   /* line 166, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_xs9"] {
+  [class*="grid"] > [data-push-left*="phone9"] {
     margin-left: 66.66667%;
   }
   /* line 169, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_xs10"] {
+  [class*="grid"] > [data-push-left*="phone10"] {
     margin-left: 75%;
   }
   /* line 172, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_xs11"] {
+  [class*="grid"] > [data-push-left*="phone11"] {
     margin-left: 83.33333%;
   }
   /* line 175, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="_xs12"] {
+  [class*="grid"] > [data-push-left*="phone12"] {
     margin-left: 91.66667%;
   }
   /* line 179, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_xs0"] {
+  [class*="grid"] > [data-push-right*="phone0"] {
     margin-right: 0;
   }
   /* line 182, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_xs1"] {
+  [class*="grid"] > [data-push-right*="phone1"] {
     margin-right: 8.33333%;
   }
   /* line 185, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_xs2"] {
+  [class*="grid"] > [data-push-right*="phone2"] {
     margin-right: 16.66667%;
   }
   /* line 188, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_xs3"] {
+  [class*="grid"] > [data-push-right*="phone3"] {
     margin-right: 25%;
   }
   /* line 191, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_xs4"] {
+  [class*="grid"] > [data-push-right*="phone4"] {
     margin-right: 33.33333%;
   }
   /* line 194, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_xs5"] {
+  [class*="grid"] > [data-push-right*="phone5"] {
     margin-right: 41.66667%;
   }
   /* line 197, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_xs6"] {
+  [class*="grid"] > [data-push-right*="phone6"] {
     margin-right: 50%;
   }
   /* line 200, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_xs7"] {
+  [class*="grid"] > [data-push-right*="phone7"] {
     margin-right: 50%;
   }
   /* line 203, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_xs8"] {
+  [class*="grid"] > [data-push-right*="phone8"] {
     margin-right: 58.33333%;
   }
   /* line 206, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_xs9"] {
+  [class*="grid"] > [data-push-right*="phone9"] {
     margin-right: 66.66667%;
   }
   /* line 209, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_xs10"] {
+  [class*="grid"] > [data-push-right*="phone10"] {
     margin-right: 75%;
   }
   /* line 212, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_xs11"] {
+  [class*="grid"] > [data-push-right*="phone11"] {
     margin-right: 83.33333%;
   }
   /* line 215, ../../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="_xs12"] {
+  [class*="grid"] > [data-push-right*="phone12"] {
     margin-right: 91.66667%;
   }
 }

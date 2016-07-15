@@ -10,11 +10,15 @@ html{
     font-size: $base-font-size;
 }
 body{
-	background: $gray20;
+	background: $gray30;
 	font-size:$p;
 	font-weight: normal;
 	line-height:1.618;
-	color: $gray100;
+	color: $gray90;
+	::selection{
+    	color:$white;
+    	background:$magenta;
+    }
 }
 #{headings(all)}{
     font-family: inherit;
@@ -57,6 +61,9 @@ strong, b{
 }
 em{
     font-style: italic;
+}
+mark{
+	background: $accentYellow;
 }
 .container{
 	max-width: $container;
