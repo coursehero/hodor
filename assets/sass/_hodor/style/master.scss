@@ -6,10 +6,10 @@
 	@include box-sizing(border-box);
 }
 html{
-    font-family: "Helvetica Neue";
     font-size: $base-font-size;
 }
 body{
+	font-family: "Helvetica Neue";
 	background: $gray30;
 	font-size:$p;
 	font-weight: normal;
@@ -21,19 +21,21 @@ body{
     }
 }
 #{headings(all)}{
-    font-family: inherit;
     font-weight: bold;
     @include leader(0);
     @include trailer(3);
 }
 h1{
     font-size: $h1Largest;
+    color: $blue;
 }
 h2{
     font-size: $h2;
+    color: $blue;
 }
 h3{
     font-size: $h3;
+    color: $blue;
 }
 h4{
     font-size: $h4;

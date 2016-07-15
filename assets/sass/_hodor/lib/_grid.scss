@@ -1,8 +1,7 @@
 // Variables
 $gridName		:grid;
-$colName		:col;
+$colName		:column;
 $gutter			:3rem;
-$columnBottom	:$gutter;
 
 $col1			:(100%/12);
 $col2			:($col1*2);
@@ -225,7 +224,7 @@ $col11_12		:(100%/11);
 }
 .#{$colName}, [class*="#{$colName}"]{
 	flex: 0 0 auto;
-	padding: 0 ($gutter/2) $columnBottom;
+	padding: 0 ($gutter/2) $gutter;
 }
 .#{$colName}{
 	flex: 1 1 0%;
