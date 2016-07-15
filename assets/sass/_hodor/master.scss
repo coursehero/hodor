@@ -1,6 +1,6 @@
-@import "../inc/extensions";
-@import "../inc/definitions";
-@import "normalize";
+@import "inc/extensions";
+@import "inc/definitions";
+@import "lib/vendor/normalize";
 
 *{
 	@include box-sizing(border-box);
@@ -74,15 +74,15 @@ mark{
 }
 
 // Include Pattern Library
-@import "../lib/grid";
-@import "../lib/tabs";
-@import "../lib/tables";
-@import "../lib/panels";
-@import "../lib/popups";
-@import "../lib/prompts";
-@import "../lib/tooltips";
-@import "../lib/progressBars";
-@import "../lib/forms";
-@import "../lib/buttons";
-@import "../lib/buttonGroups";
-@import "../lib/badges";
+@import "lib/grid";
+@import "lib/tabs";
+@import "lib/tables";
+@import "lib/panels";
+@import "lib/popups";
+@import "lib/prompts";
+@import "lib/tooltips";
+@import "lib/progressBars";
+@import "lib/forms";
+@import "lib/buttons";
+@import "lib/buttonGroups";
+@import "lib/badges";
