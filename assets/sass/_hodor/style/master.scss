@@ -17,7 +17,7 @@ body{
 	color: $gray90;
 	::selection{
     	color:$white;
-    	background:$magenta;
+    	background:$accentBlue;
     }
 }
 #{headings(all)}{
@@ -73,4 +73,16 @@ mark{
 	padding:0 1.5rem;
 }
 
+// Include Pattern Library
 @import "../lib/grid";
+@import "../lib/tabs";
+@import "../lib/tables";
+@import "../lib/panels";
+@import "../lib/popups";
+@import "../lib/prompts";
+@import "../lib/tooltips";
+@import "../lib/progressBars";
+@import "../lib/forms";
+@import "../lib/buttons";
+@import "../lib/buttonGroups";
+@import "../lib/badges";
