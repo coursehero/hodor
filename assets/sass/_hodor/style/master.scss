@@ -1,1 +1,67 @@
+@import "../inc/extensions";
+@import "../inc/definitions";
 @import "normalize";
+
+*{
+	@include box-sizing(border-box);
+}
+html{
+    font-family: "Helvetica Neue";
+    font-size: $base-font-size;
+}
+body{
+	background: $gray20;
+	font-size:$p;
+	font-weight: normal;
+	line-height:1.618;
+	color: $gray100;
+}
+#{headings(all)}{
+    font-family: inherit;
+    font-weight: bold;
+    @include leader(0);
+    @include trailer(3);
+}
+h1{
+    font-size: $h1Largest;
+}
+h2{
+    font-size: $h2;
+}
+h3{
+    font-size: $h3;
+}
+h4{
+    font-size: $h4;
+}
+h5{
+    font-size: $h5;
+}
+h6{
+    font-size: $h6;
+}
+small{
+    font-size: $small;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    @include link-colors($accentBlue, $magenta, $magenta, $accentBlue, $magenta);
+}
+p{
+	@include leader(0);
+    @include trailer(3);
+}
+strong, b{
+    font-weight: bold;
+}
+em{
+    font-style: italic;
+}
+.container{
+	max-width: $container;
+	margin:0 auto;
+	padding:0 1.5rem;
+}
+
+@import "../lib/grid";

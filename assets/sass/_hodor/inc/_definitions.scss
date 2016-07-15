@@ -1,23 +1,49 @@
 // Colors
-$blue				:#001A96;
-$magenta			:#E00099;
-$accentBlue			:#00B5E2;
-$accentGreen		:#00BA33;
-$accentYellow		:#FFDD00;
-$accentOrange		:#FF6900;
-$grayDarkest		:#444444;
-$grayDark			:#777777;
-$grayLight			:#AAAAAA;
-$grayLightest		:#F1F1F1;
+$blue						:#001A96;
+$magenta					:#E00099;
+$accentBlue					:#00B5E2;
+$accentGreen				:#00BA33;
+$accentYellow				:#FFDD00;
+$accentOrange				:#FF6900;
+$white-space 				:#FFFFFF;
+$gray20						:#F1F1F1;
+$gray40						:#EEEEEE;
+$gray60						:#BBBBBB;
+$gray80						:#888888;
+$gray100					:#444444;
 
 // Grids
-$container			:1200px;
+$container					:1230px;
 
 // Breakpoints
-$phonePortrait		:320px 639px;
-$phoneLandscape		:640px 767px;
-$tablet				:768px 1199px;
-$mobile				:320px 1199px;
-$desktop			:min-width 1200px;
+$phone						:320px 639px;
+$phablet					:640px 767px;
+$tablet						:768px 1199px;
+$mobile						:320px 1199px;
+$desktop					:min-width 1200px;
 
 // Typography
+$base-font-size				:10px;
+$base-line-height			:10px;
+$round-to-nearest-half-line	:false;
+$min-line-padding			:0px;
+$rhythm-unit				:'rem';
+$rem-with-px-fallback		:false;
+
+// Heading Font
+$headingFont				:"Helvetica Neue";
+$h1Largest					:4.3rem;
+$h1Larger					:3.8rem;
+$h1Large					:3.4rem;
+$h1							:3rem;
+$h2							:2.7rem;
+$h3							:2.4rem;
+$h4							:2.1rem;
+$h5							:1.8rem;
+$h6							:1.6rem;
+
+// Body Font
+$bodyFont					:"Helvetica Neue";
+$p							:1.5rem;
+$small						:1.3rem;
+$smallest					:1.1rem;
