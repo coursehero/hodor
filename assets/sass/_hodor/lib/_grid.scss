@@ -220,14 +220,15 @@ $col11_12		:(100%/11);
 [class*="#{$gridName}"]{
 	display: flex;
 	flex-flow: row wrap;
-	margin: 0 (-$gutter/2);
+}
+.container{
+	[class*="#{$gridName}"]{
+		margin: 0 (-$gutter/2);
+	}
 }
 .#{$colName}, [class*="#{$colName}"]{
-	flex: 0 0 auto;
-	padding: 0 ($gutter/2) $gutter;
-}
-.#{$colName}{
 	flex: 1 1 0%;
+	padding: 0 ($gutter/2) $gutter;
 }
 .#{$gridName}.#{$colName}, .#{$gridName}[class*="#{$colName}"]{
 	margin: 0;
@@ -308,6 +309,15 @@ $col11_12		:(100%/11);
 	}
 	&[class*="-last"]{
 		order: 1;
+	}
+	&[class*="_noGrow"]{
+		flex-grow:0;
+	}
+	&[class*="_center"]{
+		justify-content: center;
+	}
+	&[class*="_right"]{
+		justify-content: flex-end;
 	}
 }
 

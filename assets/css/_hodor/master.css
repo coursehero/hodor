@@ -436,19 +436,19 @@ th {
   padding: 0;
 }
 
-/* line 6, ../../sass/_hodor/master.scss */
+/* line 5, ../../sass/_hodor/master.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 9, ../../sass/_hodor/master.scss */
+/* line 8, ../../sass/_hodor/master.scss */
 html {
   font-size: 10px;
 }
 
-/* line 12, ../../sass/_hodor/master.scss */
+/* line 11, ../../sass/_hodor/master.scss */
 body {
   font-family: "Helvetica Neue";
   background: #F1F1F1;
@@ -457,58 +457,58 @@ body {
   line-height: 1.618;
   color: #444444;
 }
-/* line 19, ../../sass/_hodor/master.scss */
+/* line 18, ../../sass/_hodor/master.scss */
 body ::selection {
   color: #FFFFFF;
-  background: #00B5E2;
+  background: #E00099;
 }
 
-/* line 24, ../../sass/_hodor/master.scss */
+/* line 23, ../../sass/_hodor/master.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   margin-top: 0rem;
   margin-bottom: 3rem;
 }
 
-/* line 29, ../../sass/_hodor/master.scss */
+/* line 28, ../../sass/_hodor/master.scss */
 h1 {
   font-size: 4.3rem;
   color: #001A96;
 }
 
-/* line 33, ../../sass/_hodor/master.scss */
+/* line 32, ../../sass/_hodor/master.scss */
 h2 {
   font-size: 2.7rem;
   color: #001A96;
 }
 
-/* line 37, ../../sass/_hodor/master.scss */
+/* line 36, ../../sass/_hodor/master.scss */
 h3 {
   font-size: 2.4rem;
   color: #001A96;
 }
 
-/* line 41, ../../sass/_hodor/master.scss */
+/* line 40, ../../sass/_hodor/master.scss */
 h4 {
   font-size: 2.1rem;
 }
 
-/* line 44, ../../sass/_hodor/master.scss */
+/* line 43, ../../sass/_hodor/master.scss */
 h5 {
   font-size: 1.8rem;
 }
 
-/* line 47, ../../sass/_hodor/master.scss */
+/* line 46, ../../sass/_hodor/master.scss */
 h6 {
   font-size: 1.6rem;
 }
 
-/* line 50, ../../sass/_hodor/master.scss */
+/* line 49, ../../sass/_hodor/master.scss */
 small {
   font-size: 1.3rem;
 }
 
-/* line 53, ../../sass/_hodor/master.scss */
+/* line 52, ../../sass/_hodor/master.scss */
 a {
   outline: none;
   text-decoration: none;
@@ -531,28 +531,28 @@ a:active {
   color: #E00099;
 }
 
-/* line 58, ../../sass/_hodor/master.scss */
+/* line 57, ../../sass/_hodor/master.scss */
 p {
   margin-top: 0rem;
   margin-bottom: 3rem;
 }
 
-/* line 62, ../../sass/_hodor/master.scss */
+/* line 61, ../../sass/_hodor/master.scss */
 strong, b {
   font-weight: bold;
 }
 
-/* line 65, ../../sass/_hodor/master.scss */
+/* line 64, ../../sass/_hodor/master.scss */
 em {
   font-style: italic;
 }
 
-/* line 68, ../../sass/_hodor/master.scss */
+/* line 67, ../../sass/_hodor/master.scss */
 mark {
   background: #FFDD00;
 }
 
-/* line 71, ../../sass/_hodor/master.scss */
+/* line 70, ../../sass/_hodor/master.scss */
 .container {
   max-width: 1230px;
   margin: 0 auto;
@@ -563,108 +563,119 @@ mark {
 [class*="grid"] {
   display: flex;
   flex-flow: row wrap;
-  margin: 0 -1.5rem;
 }
 
 /* line 225, ../../sass/_hodor/lib/_grid.scss */
-.column, [class*="column"] {
-  flex: 0 0 auto;
-  padding: 0 1.5rem 3rem;
+.container [class*="grid"] {
+  margin: 0 -1.5rem;
 }
 
 /* line 229, ../../sass/_hodor/lib/_grid.scss */
-.column {
+.column, [class*="column"] {
   flex: 1 1 0%;
+  padding: 0 1.5rem 3rem;
 }
 
-/* line 232, ../../sass/_hodor/lib/_grid.scss */
+/* line 233, ../../sass/_hodor/lib/_grid.scss */
 .grid.column, .grid[class*="column"] {
   margin: 0;
   padding: 0;
 }
 
-/* line 240, ../../sass/_hodor/lib/_grid.scss */
+/* line 241, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_noGutter"] {
   margin: 0;
 }
-/* line 242, ../../sass/_hodor/lib/_grid.scss */
+/* line 243, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_noGutter"] > [class*="column"] {
   padding: 0;
 }
-/* line 247, ../../sass/_hodor/lib/_grid.scss */
+/* line 248, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_center"] {
   justify-content: center;
 }
-/* line 250, ../../sass/_hodor/lib/_grid.scss */
+/* line 251, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_right"] {
   justify-content: flex-end;
   align-self: flex-end;
   margin-left: auto;
 }
-/* line 256, ../../sass/_hodor/lib/_grid.scss */
+/* line 257, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_top"] {
   align-items: flex-start;
 }
-/* line 259, ../../sass/_hodor/lib/_grid.scss */
+/* line 260, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_middle"] {
   align-items: center;
 }
-/* line 262, ../../sass/_hodor/lib/_grid.scss */
+/* line 263, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_bottom"] {
   align-items: flex-end;
 }
-/* line 266, ../../sass/_hodor/lib/_grid.scss */
+/* line 267, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_reverse"] {
   flex-direction: row-reverse;
 }
-/* line 269, ../../sass/_hodor/lib/_grid.scss */
+/* line 270, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_column"] {
   flex-direction: column;
 }
-/* line 271, ../../sass/_hodor/lib/_grid.scss */
+/* line 272, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_column"] > [class*="column"] {
   flex-basis: auto;
 }
-/* line 275, ../../sass/_hodor/lib/_grid.scss */
+/* line 276, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_columnReverse"] {
   flex-direction: column-reverse;
 }
-/* line 279, ../../sass/_hodor/lib/_grid.scss */
+/* line 280, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_spaceBetween"] {
   justify-content: space-between;
 }
-/* line 282, ../../sass/_hodor/lib/_grid.scss */
+/* line 283, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_spaceAround"] {
   justify-content: space-around;
 }
-/* line 286, ../../sass/_hodor/lib/_grid.scss */
+/* line 287, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_equalHeight"] > [class*="column"] {
   display: flex;
 }
-/* line 290, ../../sass/_hodor/lib/_grid.scss */
+/* line 291, ../../sass/_hodor/lib/_grid.scss */
 [class*="grid"][class*="_noBottom"] > [class*="column"] {
   padding-bottom: 0;
 }
 
-/* line 297, ../../sass/_hodor/lib/_grid.scss */
+/* line 298, ../../sass/_hodor/lib/_grid.scss */
 [class*="column"][class*="_top"] {
   align-self: flex-start;
 }
-/* line 300, ../../sass/_hodor/lib/_grid.scss */
+/* line 301, ../../sass/_hodor/lib/_grid.scss */
 [class*="column"][class*="_middle"] {
   align-self: center;
 }
-/* line 303, ../../sass/_hodor/lib/_grid.scss */
+/* line 304, ../../sass/_hodor/lib/_grid.scss */
 [class*="column"][class*="_bottom"] {
   align-self: flex-end;
 }
-/* line 306, ../../sass/_hodor/lib/_grid.scss */
+/* line 307, ../../sass/_hodor/lib/_grid.scss */
 [class*="column"][class*="_first"] {
   order: -1;
 }
-/* line 309, ../../sass/_hodor/lib/_grid.scss */
+/* line 310, ../../sass/_hodor/lib/_grid.scss */
 [class*="column"][class*="-last"] {
   order: 1;
+}
+/* line 313, ../../sass/_hodor/lib/_grid.scss */
+[class*="column"][class*="_noGrow"] {
+  flex-grow: 0;
+}
+/* line 316, ../../sass/_hodor/lib/_grid.scss */
+[class*="column"][class*="_center"] {
+  justify-content: center;
+}
+/* line 319, ../../sass/_hodor/lib/_grid.scss */
+[class*="column"][class*="_right"] {
+  justify-content: flex-end;
 }
 
 /* line 29, ../../sass/_hodor/lib/_grid.scss */
