@@ -1,0 +1,8 @@
+@mixin hPadding($left, $right){
+	padding-left: $left + rem;
+	padding-right: $right + rem;
+}
+@mixin hMargin($left, $right){
+	margin-left: $left + rem;
+	margin-right: $right + rem;
+}

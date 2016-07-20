@@ -1,0 +1,108 @@
+%h1XXXLarge{
+	@include breakpoint($phone){
+		font-size: $fsH1xl;	
+	}
+	@include breakpoint($tablet){
+		font-size: $fsH1xxl;	
+	}
+	@include breakpoint($desktop){
+		font-size: $fsH1xxxl;
+	}
+}
+%h1XXLarge{
+	@include breakpoint($phone){
+		font-size: $fsH1l;
+	}
+	@include breakpoint($tablet){
+		font-size: $fsH1xl;	
+	}
+	@include breakpoint($desktop){
+		font-size: $fsH1xxl;
+	}
+}
+%h1XLarge{
+	@include breakpoint($phone){
+		font-size: $fsH1;	
+	}
+	@include breakpoint($tablet){
+		font-size: $fsH1l;	
+	}
+	@include breakpoint($desktop){
+		font-size: $fsH1xl;
+	}
+}
+%h1Large{
+	@include breakpoint($phone){
+		font-size: $fsH2;
+	}
+	@include breakpoint($tablet){
+		font-size: $fsH1;	
+	}
+	@include breakpoint($desktop){
+		font-size: $fsH1l;
+	}
+}
+%h1{
+	@include breakpoint($phone){
+		font-size: $fsH3;
+	}
+	@include breakpoint($tablet){
+		font-size: $fsH2;	
+	}
+	@include breakpoint($desktop){
+		font-size: $fsH1;
+	}
+}
+%h2{
+	@include breakpoint($phone){
+		font-size: $fsH4;
+	}
+	@include breakpoint($tablet){
+		font-size: $fsH3;	
+	}
+	@include breakpoint($desktop){
+		font-size: $fsH2;
+	}
+}
+%h3{
+	@include breakpoint($phone){
+		font-size: $fsH5;
+	}
+	@include breakpoint($tablet){
+		font-size: $fsH4;	
+	}
+	@include breakpoint($desktop){
+		font-size: $fsH3;
+	}
+}
+%h4{
+	@include breakpoint($mobile){
+		font-size: $fsH6;
+	}
+	@include breakpoint($tablet){
+		font-size: $fsH5;	
+	}
+	@include breakpoint($desktop){
+		font-size: $fsH4;
+	}
+}
+%h5{
+	@include breakpoint($mobile){
+		font-size: $fsH6;
+	}
+	@include breakpoint($desktop){
+		font-size: $fsH5;
+	}
+}
+%h6{
+	font-size: $fsH6;
+}
+%caption{
+	font-size: $fsCaption;
+}
+%small{
+	font-size: $fsSmall;
+}
+%smaller{
+	font-size: $fsSmaller;
+}

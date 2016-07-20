@@ -1,62 +1,86 @@
-@import "inc/extensions";
-@import "inc/definitions";
+@import "inc/all";
 @import "lib/vendor/normalize";
 
 *{
-	@include box-sizing(border-box);
+    @include box-sizing(border-box);
 }
 html{
     font-size: $base-font-size;
 }
 body{
-	font-family: "Helvetica Neue";
-	background: $gray30;
-	font-size:$p;
-	font-weight: normal;
-	line-height:1.618;
-	color: $gray90;
-	::selection{
-    	color:$white;
-    	background:$magenta;
+    font-family: "Helvetica Neue";
+    background: $gray30;
+    font-size:$fsBody;
+    font-weight: normal;
+    line-height:1.618;
+    color: $gray90;
+    ::selection{
+        color:$white;
+        background:$magenta;
     }
-}
-#{headings(all)}{
-    font-weight: bold;
-    @include leader(0);
-    @include trailer(3);
-}
-h1{
-    font-size: $h1Largest;
-    color: $blue;
-}
-h2{
-    font-size: $h2;
-    color: $blue;
-}
-h3{
-    font-size: $h3;
-    color: $blue;
-}
-h4{
-    font-size: $h4;
-}
-h5{
-    font-size: $h5;
-}
-h6{
-    font-size: $h6;
-}
-small{
-    font-size: $small;
 }
 a{
     outline: none;
     text-decoration: none;
     @include link-colors($accentBlue, $magenta, $magenta, $accentBlue, $magenta);
 }
-p{
-	@include leader(0);
+#{headings(all)}{
+    font-weight: bold;
+    @include breakpoint($phone){
+        @include leader(3);
+        @include trailer(1);
+    }
+    @include breakpoint($tablet){
+        @include leader(4);
+        @include trailer(2);
+    }
+    @include breakpoint($desktop){
+        @include leader(5);
+        @include trailer(3);
+    }
+}
+h1{
+    @extend %h1;
+}
+h2{
+    @extend %h2;
+}
+h3{
+    @extend %h3;
+}
+h4{
+    @extend %h4;
+}
+h5{
+    @extend %h5;
+}
+h6{
+    @extend %h6;
+}
+p, small, caption{
+    @include leader(2);
     @include trailer(3);
+}
+caption{
+    display:block;
+    @extend %caption;
+}
+small{
+    display:block;
+    @extend %small;    
+    color: $gray75;
+}
+ul, ol{
+    @include leader(2);
+    @include trailer(3);
+    padding-left:2rem;
+    li{
+        padding-left:1rem;
+    }
+    ul, ol{
+        @include leader(1);
+        @include trailer(1);
+    }
 }
 strong, b{
     font-weight: bold;
@@ -65,12 +89,61 @@ em{
     font-style: italic;
 }
 mark{
-	background: $accentYellow;
+    background: $accentYellow;
 }
-.container{
-	max-width: $container;
-	margin:0 auto;
-	padding:0 1.5rem;
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea, select{
+    display:block;
+    width:100%;
+    @include appearance(none);
+    font-family: inherit;
+    font-size: inherit;
+    @include rhythm-borders(1px, 1.5);
+    height:5rem;
+    background: $white;
+    border-color: $gray45;
+    @include border-radius($borderRadius);
+    @include box-shadow(none);
+    font-weight: normal;
+    line-height: inherit;
+    &:focus{
+        outline: none;
+        border-color: $magenta;
+        @include transition(border-color 0.2s ease-in);
+    }
+    &.placeholder{
+        color: $gray75;
+    }
+    &:disabled{
+        background: $gray30;
+        color: $gray75;
+        cursor: not-allowed;
+    }
+    &::-ms-clear, &::-ms-reveal{
+        display: none;
+    }
+}
+select{
+    padding-top:0;
+    padding-bottom:0;
+    background-image:url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2216%22%20height%3D%228%22%20viewBox%3D%220%200%2016%208%22%3E%3Cpolygon%20fill%3D%22%234D4D4D%22%20points%3D%228%2C0%2016%2C0%2012%2C4%208%2C8%204%2C4%200%2C0%20%22/%3E%3C/svg%3E);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 1.5rem) center;
+}
+textarea{
+    min-height: 10rem;
+}
+input[type=submit], input[type=reset], input[type=button], button{
+    @include appearance(none);
+    font-family: inherit;
+    &:focus, &:active{
+        outline: none;
+    }
+}
+hr{
+    border:0px;
+    @include leader(4);
+    @include apply-side-rhythm-border(top, 1px, 4);
+    border-color: $gray45;
 }
 
 // Include Pattern Library
@@ -86,3 +159,4 @@ mark{
 @import "lib/buttons";
 @import "lib/buttonGroups";
 @import "lib/badges";
+@import "lib/helper";

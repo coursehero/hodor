@@ -8,8 +8,8 @@ $accentOrange				:#FF6900;
 $white		 				:#FFFFFF;
 $gray15						:#FAFAFA;
 $gray30						:#F1F1F1;
-$gray45						:#EEEEEE;
-$gray60						:#BBBBBB;
+$gray45						:#DDDDDD;
+$gray60						:#AAAAAA;
 $gray75						:#888888;
 $gray90						:#444444;
 
@@ -17,34 +17,36 @@ $gray90						:#444444;
 $container					:1230px;
 
 // Breakpoints
-$phone						:320px 639px;
-$phablet					:640px 767px;
+$phoneSmall					:320px 639px;
+$phoneBig					:640px 767px;
+$phone						:320px 767px;
 $tablet						:768px 1199px;
 $mobile						:320px 1199px;
 $desktop					:min-width 1200px;
 
 // Typography
+$headingFont				:"Helvetica Neue";
+$bodyFont					:"Helvetica Neue";
 $base-font-size				:10px;
 $base-line-height			:10px;
 $round-to-nearest-half-line	:false;
 $min-line-padding			:0px;
 $rhythm-unit				:'rem';
 $rem-with-px-fallback		:false;
+$fsH1xxxl					:5.4rem;
+$fsH1xxl					:4.8rem;
+$fsH1xl						:4.3rem;
+$fsH1l						:3.8rem;
+$fsH1						:3.4rem;
+$fsH2						:3rem;
+$fsH3						:2.7rem;
+$fsH4						:2.4rem;
+$fsH5						:2.1rem;
+$fsH6						:1.8rem;
+$fsCaption					:1.6rem;
+$fsBody						:1.5rem;
+$fsSmall					:1.3rem;
+$fsSmaller					:1.1rem;
 
-// Heading Font
-$headingFont				:"Helvetica Neue";
-$h1Largest					:4.3rem;
-$h1Larger					:3.8rem;
-$h1Large					:3.4rem;
-$h1							:3rem;
-$h2							:2.7rem;
-$h3							:2.4rem;
-$h4							:2.1rem;
-$h5							:1.8rem;
-$h6							:1.6rem;
-
-// Body Font
-$bodyFont					:"Helvetica Neue";
-$p							:1.5rem;
-$small						:1.3rem;
-$smallest					:1.1rem;
+// Others
+$borderRadius				:3px;

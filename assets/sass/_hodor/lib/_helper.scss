@@ -1,0 +1,18 @@
+.container{
+    max-width: $container;
+    margin:0 auto;
+    padding:0 1.5rem;
+}
+
+.formRow{
+	@include leader(2);
+	@include trailer(3);
+	label{
+		display:inline-block;
+		@include trailer(1);
+	}
+	small{
+		@include leader(1);
+		@include trailer(0);
+	}
+}

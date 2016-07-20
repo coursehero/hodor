@@ -1,3 +1,107 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 45, ../../sass/_hodor/inc/_placeholder.scss */
+  h1 {
+    font-size: 2.7rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 45, ../../sass/_hodor/inc/_placeholder.scss */
+  h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 45, ../../sass/_hodor/inc/_placeholder.scss */
+  h1 {
+    font-size: 3.4rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 56, ../../sass/_hodor/inc/_placeholder.scss */
+  h2 {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 56, ../../sass/_hodor/inc/_placeholder.scss */
+  h2 {
+    font-size: 2.7rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 56, ../../sass/_hodor/inc/_placeholder.scss */
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 67, ../../sass/_hodor/inc/_placeholder.scss */
+  h3 {
+    font-size: 2.1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 67, ../../sass/_hodor/inc/_placeholder.scss */
+  h3 {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 67, ../../sass/_hodor/inc/_placeholder.scss */
+  h3 {
+    font-size: 2.7rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1199px) {
+  /* line 78, ../../sass/_hodor/inc/_placeholder.scss */
+  h4 {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 78, ../../sass/_hodor/inc/_placeholder.scss */
+  h4 {
+    font-size: 2.1rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 78, ../../sass/_hodor/inc/_placeholder.scss */
+  h4 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1199px) {
+  /* line 89, ../../sass/_hodor/inc/_placeholder.scss */
+  h5 {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 89, ../../sass/_hodor/inc/_placeholder.scss */
+  h5 {
+    font-size: 2.1rem;
+  }
+}
+
+/* line 97, ../../sass/_hodor/inc/_placeholder.scss */
+h6 {
+  font-size: 1.8rem;
+}
+
+/* line 100, ../../sass/_hodor/inc/_placeholder.scss */
+caption {
+  font-size: 1.6rem;
+}
+
+/* line 103, ../../sass/_hodor/inc/_placeholder.scss */
+small {
+  font-size: 1.3rem;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -129,36 +233,18 @@ dfn {
 }
 
 /**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
-/* line 135, ../../sass/_hodor/lib/vendor/_normalize.scss */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-/**
  * Address styling not present in IE 8/9.
  */
-/* line 144, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 134, ../../sass/_hodor/lib/vendor/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
 /**
- * Address inconsistent and variable font size in all browsers.
- */
-/* line 153, ../../sass/_hodor/lib/vendor/_normalize.scss */
-small {
-  font-size: 80%;
-}
-
-/**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 161, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 143, ../../sass/_hodor/lib/vendor/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -167,12 +253,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 169, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 151, ../../sass/_hodor/lib/vendor/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 173, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 155, ../../sass/_hodor/lib/vendor/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -182,7 +268,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 184, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 166, ../../sass/_hodor/lib/vendor/_normalize.scss */
 img {
   border: 0;
 }
@@ -190,7 +276,7 @@ img {
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 192, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 174, ../../sass/_hodor/lib/vendor/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -200,7 +286,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 203, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 185, ../../sass/_hodor/lib/vendor/_normalize.scss */
 figure {
   margin: 1em 40px;
 }
@@ -208,7 +294,7 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 211, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 193, ../../sass/_hodor/lib/vendor/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -218,7 +304,7 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 221, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 203, ../../sass/_hodor/lib/vendor/_normalize.scss */
 pre {
   overflow: auto;
 }
@@ -226,7 +312,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 229, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 211, ../../sass/_hodor/lib/vendor/_normalize.scss */
 code,
 kbd,
 pre,
@@ -247,7 +333,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 252, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 234, ../../sass/_hodor/lib/vendor/_normalize.scss */
 button,
 input,
 optgroup,
@@ -264,7 +350,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 266, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 248, ../../sass/_hodor/lib/vendor/_normalize.scss */
 button {
   overflow: visible;
 }
@@ -275,7 +361,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 277, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 259, ../../sass/_hodor/lib/vendor/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -288,7 +374,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 290, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 272, ../../sass/_hodor/lib/vendor/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -302,7 +388,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 302, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 284, ../../sass/_hodor/lib/vendor/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -311,7 +397,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 311, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 293, ../../sass/_hodor/lib/vendor/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -322,7 +408,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 322, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 304, ../../sass/_hodor/lib/vendor/_normalize.scss */
 input {
   line-height: normal;
 }
@@ -334,7 +420,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 334, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 316, ../../sass/_hodor/lib/vendor/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -348,7 +434,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 346, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 328, ../../sass/_hodor/lib/vendor/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -359,7 +445,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 357, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 339, ../../sass/_hodor/lib/vendor/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -374,7 +460,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 370, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 352, ../../sass/_hodor/lib/vendor/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -383,7 +469,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 379, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 361, ../../sass/_hodor/lib/vendor/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -394,7 +480,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 390, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 372, ../../sass/_hodor/lib/vendor/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -405,7 +491,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 399, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 381, ../../sass/_hodor/lib/vendor/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -414,7 +500,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 408, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 390, ../../sass/_hodor/lib/vendor/_normalize.scss */
 optgroup {
   font-weight: bold;
 }
@@ -424,31 +510,31 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 419, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 401, ../../sass/_hodor/lib/vendor/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 424, ../../sass/_hodor/lib/vendor/_normalize.scss */
+/* line 406, ../../sass/_hodor/lib/vendor/_normalize.scss */
 td,
 th {
   padding: 0;
 }
 
-/* line 5, ../../sass/_hodor/master.scss */
+/* line 4, ../../sass/_hodor/master.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 8, ../../sass/_hodor/master.scss */
+/* line 7, ../../sass/_hodor/master.scss */
 html {
   font-size: 10px;
 }
 
-/* line 11, ../../sass/_hodor/master.scss */
+/* line 10, ../../sass/_hodor/master.scss */
 body {
   font-family: "Helvetica Neue";
   background: #F1F1F1;
@@ -457,58 +543,13 @@ body {
   line-height: 1.618;
   color: #444444;
 }
-/* line 18, ../../sass/_hodor/master.scss */
+/* line 17, ../../sass/_hodor/master.scss */
 body ::selection {
   color: #FFFFFF;
   background: #E00099;
 }
 
-/* line 23, ../../sass/_hodor/master.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  margin-top: 0rem;
-  margin-bottom: 3rem;
-}
-
-/* line 28, ../../sass/_hodor/master.scss */
-h1 {
-  font-size: 4.3rem;
-  color: #001A96;
-}
-
-/* line 32, ../../sass/_hodor/master.scss */
-h2 {
-  font-size: 2.7rem;
-  color: #001A96;
-}
-
-/* line 36, ../../sass/_hodor/master.scss */
-h3 {
-  font-size: 2.4rem;
-  color: #001A96;
-}
-
-/* line 40, ../../sass/_hodor/master.scss */
-h4 {
-  font-size: 2.1rem;
-}
-
-/* line 43, ../../sass/_hodor/master.scss */
-h5 {
-  font-size: 1.8rem;
-}
-
-/* line 46, ../../sass/_hodor/master.scss */
-h6 {
-  font-size: 1.6rem;
-}
-
-/* line 49, ../../sass/_hodor/master.scss */
-small {
-  font-size: 1.3rem;
-}
-
-/* line 52, ../../sass/_hodor/master.scss */
+/* line 22, ../../sass/_hodor/master.scss */
 a {
   outline: none;
   text-decoration: none;
@@ -531,32 +572,160 @@ a:active {
   color: #E00099;
 }
 
-/* line 57, ../../sass/_hodor/master.scss */
-p {
-  margin-top: 0rem;
+/* line 27, ../../sass/_hodor/master.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 27, ../../sass/_hodor/master.scss */
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 27, ../../sass/_hodor/master.scss */
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 27, ../../sass/_hodor/master.scss */
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+/* line 60, ../../sass/_hodor/master.scss */
+p, small, caption {
+  margin-top: 2rem;
   margin-bottom: 3rem;
 }
 
-/* line 61, ../../sass/_hodor/master.scss */
+/* line 64, ../../sass/_hodor/master.scss */
+caption {
+  display: block;
+}
+
+/* line 68, ../../sass/_hodor/master.scss */
+small {
+  display: block;
+  color: #888888;
+}
+
+/* line 73, ../../sass/_hodor/master.scss */
+ul, ol {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+}
+/* line 77, ../../sass/_hodor/master.scss */
+ul li, ol li {
+  padding-left: 1rem;
+}
+/* line 80, ../../sass/_hodor/master.scss */
+ul ul, ul ol, ol ul, ol ol {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* line 85, ../../sass/_hodor/master.scss */
 strong, b {
   font-weight: bold;
 }
 
-/* line 64, ../../sass/_hodor/master.scss */
+/* line 88, ../../sass/_hodor/master.scss */
 em {
   font-style: italic;
 }
 
-/* line 67, ../../sass/_hodor/master.scss */
+/* line 91, ../../sass/_hodor/master.scss */
 mark {
   background: #FFDD00;
 }
 
-/* line 70, ../../sass/_hodor/master.scss */
-.container {
-  max-width: 1230px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
+/* line 94, ../../sass/_hodor/master.scss */
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea, select {
+  display: block;
+  width: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-family: inherit;
+  font-size: inherit;
+  border-width: 0.1rem;
+  border-style: solid;
+  padding: 1.4rem;
+  height: 5rem;
+  background: #FFFFFF;
+  border-color: #DDDDDD;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-weight: normal;
+  line-height: inherit;
+}
+/* line 108, ../../sass/_hodor/master.scss */
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #E00099;
+  -moz-transition: border-color 0.2s ease-in;
+  -o-transition: border-color 0.2s ease-in;
+  -webkit-transition: border-color 0.2s ease-in;
+  transition: border-color 0.2s ease-in;
+}
+/* line 113, ../../sass/_hodor/master.scss */
+input[type="text"].placeholder, input[type="password"].placeholder, input[type="date"].placeholder, input[type="datetime"].placeholder, input[type="datetime-local"].placeholder, input[type="month"].placeholder, input[type="week"].placeholder, input[type="email"].placeholder, input[type="number"].placeholder, input[type="search"].placeholder, input[type="tel"].placeholder, input[type="time"].placeholder, input[type="url"].placeholder, textarea.placeholder, select.placeholder {
+  color: #888888;
+}
+/* line 116, ../../sass/_hodor/master.scss */
+input[type="text"]:disabled, input[type="password"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="month"]:disabled, input[type="week"]:disabled, input[type="email"]:disabled, input[type="number"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, textarea:disabled, select:disabled {
+  background: #F1F1F1;
+  color: #888888;
+  cursor: not-allowed;
+}
+/* line 121, ../../sass/_hodor/master.scss */
+input[type="text"]::-ms-clear, input[type="text"]::-ms-reveal, input[type="password"]::-ms-clear, input[type="password"]::-ms-reveal, input[type="date"]::-ms-clear, input[type="date"]::-ms-reveal, input[type="datetime"]::-ms-clear, input[type="datetime"]::-ms-reveal, input[type="datetime-local"]::-ms-clear, input[type="datetime-local"]::-ms-reveal, input[type="month"]::-ms-clear, input[type="month"]::-ms-reveal, input[type="week"]::-ms-clear, input[type="week"]::-ms-reveal, input[type="email"]::-ms-clear, input[type="email"]::-ms-reveal, input[type="number"]::-ms-clear, input[type="number"]::-ms-reveal, input[type="search"]::-ms-clear, input[type="search"]::-ms-reveal, input[type="tel"]::-ms-clear, input[type="tel"]::-ms-reveal, input[type="time"]::-ms-clear, input[type="time"]::-ms-reveal, input[type="url"]::-ms-clear, input[type="url"]::-ms-reveal, textarea::-ms-clear, textarea::-ms-reveal, select::-ms-clear, select::-ms-reveal {
+  display: none;
+}
+
+/* line 125, ../../sass/_hodor/master.scss */
+select {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2216%22%20height%3D%228%22%20viewBox%3D%220%200%2016%208%22%3E%3Cpolygon%20fill%3D%22%234D4D4D%22%20points%3D%228%2C0%2016%2C0%2012%2C4%208%2C8%204%2C4%200%2C0%20%22/%3E%3C/svg%3E);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 1.5rem) center;
+}
+
+/* line 132, ../../sass/_hodor/master.scss */
+textarea {
+  min-height: 10rem;
+}
+
+/* line 135, ../../sass/_hodor/master.scss */
+input[type=submit], input[type=reset], input[type=button], button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-family: inherit;
+}
+/* line 138, ../../sass/_hodor/master.scss */
+input[type=submit]:focus, input[type=submit]:active, input[type=reset]:focus, input[type=reset]:active, input[type=button]:focus, input[type=button]:active, button:focus, button:active {
+  outline: none;
+}
+
+/* line 142, ../../sass/_hodor/master.scss */
+hr {
+  border: 0px;
+  margin-top: 4rem;
+  border-top-width: 0.1rem;
+  border-top-style: solid;
+  padding-top: 3.9rem;
+  border-color: #DDDDDD;
 }
 
 /* line 220, ../../sass/_hodor/lib/_grid.scss */
@@ -750,6 +919,79 @@ mark {
   max-width: 8.33333%;
 }
 
+@media (min-width: 320px) and (max-width: 1199px) {
+  /* line 29, ../../sass/_hodor/lib/_grid.scss */
+  [class*="mobile1"] > .column, [class*="mobile1"] > [class*='column'] {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  /* line 33, ../../sass/_hodor/lib/_grid.scss */
+  [class*="mobile2"] > .column, [class*="mobile2"] > [class*='column'] {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  /* line 37, ../../sass/_hodor/lib/_grid.scss */
+  [class*="mobile3"] > .column, [class*="mobile3"] > [class*='column'] {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+  }
+
+  /* line 41, ../../sass/_hodor/lib/_grid.scss */
+  [class*="mobile4"] > .column, [class*="mobile4"] > [class*='column'] {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  /* line 45, ../../sass/_hodor/lib/_grid.scss */
+  [class*="mobile5"] > .column, [class*="mobile5"] > [class*='column'] {
+    flex-basis: 20%;
+    max-width: 20%;
+  }
+
+  /* line 49, ../../sass/_hodor/lib/_grid.scss */
+  [class*="mobile6"] > .column, [class*="mobile6"] > [class*='column'] {
+    flex-basis: 16.66667%;
+    max-width: 16.66667%;
+  }
+
+  /* line 53, ../../sass/_hodor/lib/_grid.scss */
+  [class*="mobile7"] > .column, [class*="mobile7"] > [class*='column'] {
+    flex-basis: 14.28571%;
+    max-width: 14.28571%;
+  }
+
+  /* line 57, ../../sass/_hodor/lib/_grid.scss */
+  [class*="mobile8"] > .column, [class*="mobile8"] > [class*='column'] {
+    flex-basis: 12.5%;
+    max-width: 12.5%;
+  }
+
+  /* line 61, ../../sass/_hodor/lib/_grid.scss */
+  [class*="mobile9"] > .column, [class*="mobile9"] > [class*='column'] {
+    flex-basis: 11.11111%;
+    max-width: 11.11111%;
+  }
+
+  /* line 65, ../../sass/_hodor/lib/_grid.scss */
+  [class*="mobile10"] > .column, [class*="mobile10"] > [class*='column'] {
+    flex-basis: 10%;
+    max-width: 10%;
+  }
+
+  /* line 69, ../../sass/_hodor/lib/_grid.scss */
+  [class*="mobile11"] > .column, [class*="mobile11"] > [class*='column'] {
+    flex-basis: 9.09091%;
+    max-width: 9.09091%;
+  }
+
+  /* line 73, ../../sass/_hodor/lib/_grid.scss */
+  [class*="mobile12"] > .column, [class*="mobile12"] > [class*='column'] {
+    flex-basis: 8.33333%;
+    max-width: 8.33333%;
+  }
+}
 @media (min-width: 768px) and (max-width: 1199px) {
   /* line 29, ../../sass/_hodor/lib/_grid.scss */
   [class*="tablet1"] > .column, [class*="tablet1"] > [class*='column'] {
@@ -823,80 +1065,7 @@ mark {
     max-width: 8.33333%;
   }
 }
-@media (min-width: 640px) and (max-width: 767px) {
-  /* line 29, ../../sass/_hodor/lib/_grid.scss */
-  [class*="phablet1"] > .column, [class*="phablet1"] > [class*='column'] {
-    flex-basis: 100%;
-    max-width: 100%;
-  }
-
-  /* line 33, ../../sass/_hodor/lib/_grid.scss */
-  [class*="phablet2"] > .column, [class*="phablet2"] > [class*='column'] {
-    flex-basis: 50%;
-    max-width: 50%;
-  }
-
-  /* line 37, ../../sass/_hodor/lib/_grid.scss */
-  [class*="phablet3"] > .column, [class*="phablet3"] > [class*='column'] {
-    flex-basis: 33.33333%;
-    max-width: 33.33333%;
-  }
-
-  /* line 41, ../../sass/_hodor/lib/_grid.scss */
-  [class*="phablet4"] > .column, [class*="phablet4"] > [class*='column'] {
-    flex-basis: 25%;
-    max-width: 25%;
-  }
-
-  /* line 45, ../../sass/_hodor/lib/_grid.scss */
-  [class*="phablet5"] > .column, [class*="phablet5"] > [class*='column'] {
-    flex-basis: 20%;
-    max-width: 20%;
-  }
-
-  /* line 49, ../../sass/_hodor/lib/_grid.scss */
-  [class*="phablet6"] > .column, [class*="phablet6"] > [class*='column'] {
-    flex-basis: 16.66667%;
-    max-width: 16.66667%;
-  }
-
-  /* line 53, ../../sass/_hodor/lib/_grid.scss */
-  [class*="phablet7"] > .column, [class*="phablet7"] > [class*='column'] {
-    flex-basis: 14.28571%;
-    max-width: 14.28571%;
-  }
-
-  /* line 57, ../../sass/_hodor/lib/_grid.scss */
-  [class*="phablet8"] > .column, [class*="phablet8"] > [class*='column'] {
-    flex-basis: 12.5%;
-    max-width: 12.5%;
-  }
-
-  /* line 61, ../../sass/_hodor/lib/_grid.scss */
-  [class*="phablet9"] > .column, [class*="phablet9"] > [class*='column'] {
-    flex-basis: 11.11111%;
-    max-width: 11.11111%;
-  }
-
-  /* line 65, ../../sass/_hodor/lib/_grid.scss */
-  [class*="phablet10"] > .column, [class*="phablet10"] > [class*='column'] {
-    flex-basis: 10%;
-    max-width: 10%;
-  }
-
-  /* line 69, ../../sass/_hodor/lib/_grid.scss */
-  [class*="phablet11"] > .column, [class*="phablet11"] > [class*='column'] {
-    flex-basis: 9.09091%;
-    max-width: 9.09091%;
-  }
-
-  /* line 73, ../../sass/_hodor/lib/_grid.scss */
-  [class*="phablet12"] > .column, [class*="phablet12"] > [class*='column'] {
-    flex-basis: 8.33333%;
-    max-width: 8.33333%;
-  }
-}
-@media (min-width: 320px) and (max-width: 639px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 29, ../../sass/_hodor/lib/_grid.scss */
   [class*="phone1"] > .column, [class*="phone1"] > [class*='column'] {
     flex-basis: 100%;
@@ -965,6 +1134,152 @@ mark {
 
   /* line 73, ../../sass/_hodor/lib/_grid.scss */
   [class*="phone12"] > .column, [class*="phone12"] > [class*='column'] {
+    flex-basis: 8.33333%;
+    max-width: 8.33333%;
+  }
+}
+@media (min-width: 640px) and (max-width: 767px) {
+  /* line 29, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneBig1"] > .column, [class*="phoneBig1"] > [class*='column'] {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  /* line 33, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneBig2"] > .column, [class*="phoneBig2"] > [class*='column'] {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  /* line 37, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneBig3"] > .column, [class*="phoneBig3"] > [class*='column'] {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+  }
+
+  /* line 41, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneBig4"] > .column, [class*="phoneBig4"] > [class*='column'] {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  /* line 45, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneBig5"] > .column, [class*="phoneBig5"] > [class*='column'] {
+    flex-basis: 20%;
+    max-width: 20%;
+  }
+
+  /* line 49, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneBig6"] > .column, [class*="phoneBig6"] > [class*='column'] {
+    flex-basis: 16.66667%;
+    max-width: 16.66667%;
+  }
+
+  /* line 53, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneBig7"] > .column, [class*="phoneBig7"] > [class*='column'] {
+    flex-basis: 14.28571%;
+    max-width: 14.28571%;
+  }
+
+  /* line 57, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneBig8"] > .column, [class*="phoneBig8"] > [class*='column'] {
+    flex-basis: 12.5%;
+    max-width: 12.5%;
+  }
+
+  /* line 61, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneBig9"] > .column, [class*="phoneBig9"] > [class*='column'] {
+    flex-basis: 11.11111%;
+    max-width: 11.11111%;
+  }
+
+  /* line 65, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneBig10"] > .column, [class*="phoneBig10"] > [class*='column'] {
+    flex-basis: 10%;
+    max-width: 10%;
+  }
+
+  /* line 69, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneBig11"] > .column, [class*="phoneBig11"] > [class*='column'] {
+    flex-basis: 9.09091%;
+    max-width: 9.09091%;
+  }
+
+  /* line 73, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneBig12"] > .column, [class*="phoneBig12"] > [class*='column'] {
+    flex-basis: 8.33333%;
+    max-width: 8.33333%;
+  }
+}
+@media (min-width: 320px) and (max-width: 639px) {
+  /* line 29, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneSmall1"] > .column, [class*="phoneSmall1"] > [class*='column'] {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  /* line 33, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneSmall2"] > .column, [class*="phoneSmall2"] > [class*='column'] {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  /* line 37, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneSmall3"] > .column, [class*="phoneSmall3"] > [class*='column'] {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+  }
+
+  /* line 41, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneSmall4"] > .column, [class*="phoneSmall4"] > [class*='column'] {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  /* line 45, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneSmall5"] > .column, [class*="phoneSmall5"] > [class*='column'] {
+    flex-basis: 20%;
+    max-width: 20%;
+  }
+
+  /* line 49, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneSmall6"] > .column, [class*="phoneSmall6"] > [class*='column'] {
+    flex-basis: 16.66667%;
+    max-width: 16.66667%;
+  }
+
+  /* line 53, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneSmall7"] > .column, [class*="phoneSmall7"] > [class*='column'] {
+    flex-basis: 14.28571%;
+    max-width: 14.28571%;
+  }
+
+  /* line 57, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneSmall8"] > .column, [class*="phoneSmall8"] > [class*='column'] {
+    flex-basis: 12.5%;
+    max-width: 12.5%;
+  }
+
+  /* line 61, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneSmall9"] > .column, [class*="phoneSmall9"] > [class*='column'] {
+    flex-basis: 11.11111%;
+    max-width: 11.11111%;
+  }
+
+  /* line 65, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneSmall10"] > .column, [class*="phoneSmall10"] > [class*='column'] {
+    flex-basis: 10%;
+    max-width: 10%;
+  }
+
+  /* line 69, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneSmall11"] > .column, [class*="phoneSmall11"] > [class*='column'] {
+    flex-basis: 9.09091%;
+    max-width: 9.09091%;
+  }
+
+  /* line 73, ../../sass/_hodor/lib/_grid.scss */
+  [class*="phoneSmall12"] > .column, [class*="phoneSmall12"] > [class*='column'] {
     flex-basis: 8.33333%;
     max-width: 8.33333%;
   }
@@ -1135,6 +1450,173 @@ mark {
   margin-right: 91.66667%;
 }
 
+@media (min-width: 320px) and (max-width: 1199px) {
+  /* line 83, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="mobile1"] {
+    flex-basis: 8.33333%;
+    max-width: 8.33333%;
+  }
+  /* line 87, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="mobile2"] {
+    flex-basis: 16.66667%;
+    max-width: 16.66667%;
+  }
+  /* line 91, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="mobile3"] {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  /* line 95, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="mobile4"] {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+  }
+  /* line 99, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="mobile5"] {
+    flex-basis: 41.66667%;
+    max-width: 41.66667%;
+  }
+  /* line 103, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="mobile6"] {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  /* line 107, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="mobile7"] {
+    flex-basis: 58.33333%;
+    max-width: 58.33333%;
+  }
+  /* line 111, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="mobile8"] {
+    flex-basis: 66.66667%;
+    max-width: 66.66667%;
+  }
+  /* line 115, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="mobile9"] {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  /* line 119, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="mobile10"] {
+    flex-basis: 83.33333%;
+    max-width: 83.33333%;
+  }
+  /* line 123, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="mobile11"] {
+    flex-basis: 91.66667%;
+    max-width: 91.66667%;
+  }
+  /* line 127, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="mobile12"] {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  /* line 138, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="mobile0"] {
+    margin-left: 0;
+  }
+  /* line 141, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="mobile1"] {
+    margin-left: 8.33333%;
+  }
+  /* line 144, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="mobile2"] {
+    margin-left: 16.66667%;
+  }
+  /* line 147, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="mobile3"] {
+    margin-left: 25%;
+  }
+  /* line 150, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="mobile4"] {
+    margin-left: 33.33333%;
+  }
+  /* line 153, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="mobile5"] {
+    margin-left: 41.66667%;
+  }
+  /* line 156, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="mobile6"] {
+    margin-left: 50%;
+  }
+  /* line 159, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="mobile7"] {
+    margin-left: 50%;
+  }
+  /* line 162, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="mobile8"] {
+    margin-left: 58.33333%;
+  }
+  /* line 165, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="mobile9"] {
+    margin-left: 66.66667%;
+  }
+  /* line 168, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="mobile10"] {
+    margin-left: 75%;
+  }
+  /* line 171, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="mobile11"] {
+    margin-left: 83.33333%;
+  }
+  /* line 174, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="mobile12"] {
+    margin-left: 91.66667%;
+  }
+  /* line 178, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="mobile0"] {
+    margin-right: 0;
+  }
+  /* line 181, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="mobile1"] {
+    margin-right: 8.33333%;
+  }
+  /* line 184, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="mobile2"] {
+    margin-right: 16.66667%;
+  }
+  /* line 187, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="mobile3"] {
+    margin-right: 25%;
+  }
+  /* line 190, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="mobile4"] {
+    margin-right: 33.33333%;
+  }
+  /* line 193, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="mobile5"] {
+    margin-right: 41.66667%;
+  }
+  /* line 196, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="mobile6"] {
+    margin-right: 50%;
+  }
+  /* line 199, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="mobile7"] {
+    margin-right: 50%;
+  }
+  /* line 202, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="mobile8"] {
+    margin-right: 58.33333%;
+  }
+  /* line 205, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="mobile9"] {
+    margin-right: 66.66667%;
+  }
+  /* line 208, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="mobile10"] {
+    margin-right: 75%;
+  }
+  /* line 211, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="mobile11"] {
+    margin-right: 83.33333%;
+  }
+  /* line 214, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="mobile12"] {
+    margin-right: 91.66667%;
+  }
+}
 @media (min-width: 768px) and (max-width: 1199px) {
   /* line 83, ../../sass/_hodor/lib/_grid.scss */
   [class*='grid'] > [class*="tablet1"] {
@@ -1302,174 +1784,7 @@ mark {
     margin-right: 91.66667%;
   }
 }
-@media (min-width: 640px) and (max-width: 767px) {
-  /* line 83, ../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="phablet1"] {
-    flex-basis: 8.33333%;
-    max-width: 8.33333%;
-  }
-  /* line 87, ../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="phablet2"] {
-    flex-basis: 16.66667%;
-    max-width: 16.66667%;
-  }
-  /* line 91, ../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="phablet3"] {
-    flex-basis: 25%;
-    max-width: 25%;
-  }
-  /* line 95, ../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="phablet4"] {
-    flex-basis: 33.33333%;
-    max-width: 33.33333%;
-  }
-  /* line 99, ../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="phablet5"] {
-    flex-basis: 41.66667%;
-    max-width: 41.66667%;
-  }
-  /* line 103, ../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="phablet6"] {
-    flex-basis: 50%;
-    max-width: 50%;
-  }
-  /* line 107, ../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="phablet7"] {
-    flex-basis: 58.33333%;
-    max-width: 58.33333%;
-  }
-  /* line 111, ../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="phablet8"] {
-    flex-basis: 66.66667%;
-    max-width: 66.66667%;
-  }
-  /* line 115, ../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="phablet9"] {
-    flex-basis: 75%;
-    max-width: 75%;
-  }
-  /* line 119, ../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="phablet10"] {
-    flex-basis: 83.33333%;
-    max-width: 83.33333%;
-  }
-  /* line 123, ../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="phablet11"] {
-    flex-basis: 91.66667%;
-    max-width: 91.66667%;
-  }
-  /* line 127, ../../sass/_hodor/lib/_grid.scss */
-  [class*='grid'] > [class*="phablet12"] {
-    flex-basis: 100%;
-    max-width: 100%;
-  }
-
-  /* line 138, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="phablet0"] {
-    margin-left: 0;
-  }
-  /* line 141, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="phablet1"] {
-    margin-left: 8.33333%;
-  }
-  /* line 144, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="phablet2"] {
-    margin-left: 16.66667%;
-  }
-  /* line 147, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="phablet3"] {
-    margin-left: 25%;
-  }
-  /* line 150, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="phablet4"] {
-    margin-left: 33.33333%;
-  }
-  /* line 153, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="phablet5"] {
-    margin-left: 41.66667%;
-  }
-  /* line 156, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="phablet6"] {
-    margin-left: 50%;
-  }
-  /* line 159, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="phablet7"] {
-    margin-left: 50%;
-  }
-  /* line 162, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="phablet8"] {
-    margin-left: 58.33333%;
-  }
-  /* line 165, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="phablet9"] {
-    margin-left: 66.66667%;
-  }
-  /* line 168, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="phablet10"] {
-    margin-left: 75%;
-  }
-  /* line 171, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="phablet11"] {
-    margin-left: 83.33333%;
-  }
-  /* line 174, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-left*="phablet12"] {
-    margin-left: 91.66667%;
-  }
-  /* line 178, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="phablet0"] {
-    margin-right: 0;
-  }
-  /* line 181, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="phablet1"] {
-    margin-right: 8.33333%;
-  }
-  /* line 184, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="phablet2"] {
-    margin-right: 16.66667%;
-  }
-  /* line 187, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="phablet3"] {
-    margin-right: 25%;
-  }
-  /* line 190, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="phablet4"] {
-    margin-right: 33.33333%;
-  }
-  /* line 193, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="phablet5"] {
-    margin-right: 41.66667%;
-  }
-  /* line 196, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="phablet6"] {
-    margin-right: 50%;
-  }
-  /* line 199, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="phablet7"] {
-    margin-right: 50%;
-  }
-  /* line 202, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="phablet8"] {
-    margin-right: 58.33333%;
-  }
-  /* line 205, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="phablet9"] {
-    margin-right: 66.66667%;
-  }
-  /* line 208, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="phablet10"] {
-    margin-right: 75%;
-  }
-  /* line 211, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="phablet11"] {
-    margin-right: 83.33333%;
-  }
-  /* line 214, ../../sass/_hodor/lib/_grid.scss */
-  [class*="grid"] > [data-push-right*="phablet12"] {
-    margin-right: 91.66667%;
-  }
-}
-@media (min-width: 320px) and (max-width: 639px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 83, ../../sass/_hodor/lib/_grid.scss */
   [class*='grid'] > [class*="phone1"] {
     flex-basis: 8.33333%;
@@ -1635,4 +1950,360 @@ mark {
   [class*="grid"] > [data-push-right*="phone12"] {
     margin-right: 91.66667%;
   }
+}
+@media (min-width: 640px) and (max-width: 767px) {
+  /* line 83, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneBig1"] {
+    flex-basis: 8.33333%;
+    max-width: 8.33333%;
+  }
+  /* line 87, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneBig2"] {
+    flex-basis: 16.66667%;
+    max-width: 16.66667%;
+  }
+  /* line 91, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneBig3"] {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  /* line 95, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneBig4"] {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+  }
+  /* line 99, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneBig5"] {
+    flex-basis: 41.66667%;
+    max-width: 41.66667%;
+  }
+  /* line 103, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneBig6"] {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  /* line 107, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneBig7"] {
+    flex-basis: 58.33333%;
+    max-width: 58.33333%;
+  }
+  /* line 111, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneBig8"] {
+    flex-basis: 66.66667%;
+    max-width: 66.66667%;
+  }
+  /* line 115, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneBig9"] {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  /* line 119, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneBig10"] {
+    flex-basis: 83.33333%;
+    max-width: 83.33333%;
+  }
+  /* line 123, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneBig11"] {
+    flex-basis: 91.66667%;
+    max-width: 91.66667%;
+  }
+  /* line 127, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneBig12"] {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  /* line 138, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneBig0"] {
+    margin-left: 0;
+  }
+  /* line 141, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneBig1"] {
+    margin-left: 8.33333%;
+  }
+  /* line 144, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneBig2"] {
+    margin-left: 16.66667%;
+  }
+  /* line 147, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneBig3"] {
+    margin-left: 25%;
+  }
+  /* line 150, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneBig4"] {
+    margin-left: 33.33333%;
+  }
+  /* line 153, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneBig5"] {
+    margin-left: 41.66667%;
+  }
+  /* line 156, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneBig6"] {
+    margin-left: 50%;
+  }
+  /* line 159, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneBig7"] {
+    margin-left: 50%;
+  }
+  /* line 162, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneBig8"] {
+    margin-left: 58.33333%;
+  }
+  /* line 165, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneBig9"] {
+    margin-left: 66.66667%;
+  }
+  /* line 168, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneBig10"] {
+    margin-left: 75%;
+  }
+  /* line 171, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneBig11"] {
+    margin-left: 83.33333%;
+  }
+  /* line 174, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneBig12"] {
+    margin-left: 91.66667%;
+  }
+  /* line 178, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneBig0"] {
+    margin-right: 0;
+  }
+  /* line 181, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneBig1"] {
+    margin-right: 8.33333%;
+  }
+  /* line 184, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneBig2"] {
+    margin-right: 16.66667%;
+  }
+  /* line 187, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneBig3"] {
+    margin-right: 25%;
+  }
+  /* line 190, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneBig4"] {
+    margin-right: 33.33333%;
+  }
+  /* line 193, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneBig5"] {
+    margin-right: 41.66667%;
+  }
+  /* line 196, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneBig6"] {
+    margin-right: 50%;
+  }
+  /* line 199, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneBig7"] {
+    margin-right: 50%;
+  }
+  /* line 202, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneBig8"] {
+    margin-right: 58.33333%;
+  }
+  /* line 205, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneBig9"] {
+    margin-right: 66.66667%;
+  }
+  /* line 208, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneBig10"] {
+    margin-right: 75%;
+  }
+  /* line 211, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneBig11"] {
+    margin-right: 83.33333%;
+  }
+  /* line 214, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneBig12"] {
+    margin-right: 91.66667%;
+  }
+}
+@media (min-width: 320px) and (max-width: 639px) {
+  /* line 83, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneSmall1"] {
+    flex-basis: 8.33333%;
+    max-width: 8.33333%;
+  }
+  /* line 87, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneSmall2"] {
+    flex-basis: 16.66667%;
+    max-width: 16.66667%;
+  }
+  /* line 91, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneSmall3"] {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  /* line 95, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneSmall4"] {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+  }
+  /* line 99, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneSmall5"] {
+    flex-basis: 41.66667%;
+    max-width: 41.66667%;
+  }
+  /* line 103, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneSmall6"] {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  /* line 107, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneSmall7"] {
+    flex-basis: 58.33333%;
+    max-width: 58.33333%;
+  }
+  /* line 111, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneSmall8"] {
+    flex-basis: 66.66667%;
+    max-width: 66.66667%;
+  }
+  /* line 115, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneSmall9"] {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  /* line 119, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneSmall10"] {
+    flex-basis: 83.33333%;
+    max-width: 83.33333%;
+  }
+  /* line 123, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneSmall11"] {
+    flex-basis: 91.66667%;
+    max-width: 91.66667%;
+  }
+  /* line 127, ../../sass/_hodor/lib/_grid.scss */
+  [class*='grid'] > [class*="phoneSmall12"] {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  /* line 138, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneSmall0"] {
+    margin-left: 0;
+  }
+  /* line 141, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneSmall1"] {
+    margin-left: 8.33333%;
+  }
+  /* line 144, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneSmall2"] {
+    margin-left: 16.66667%;
+  }
+  /* line 147, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneSmall3"] {
+    margin-left: 25%;
+  }
+  /* line 150, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneSmall4"] {
+    margin-left: 33.33333%;
+  }
+  /* line 153, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneSmall5"] {
+    margin-left: 41.66667%;
+  }
+  /* line 156, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneSmall6"] {
+    margin-left: 50%;
+  }
+  /* line 159, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneSmall7"] {
+    margin-left: 50%;
+  }
+  /* line 162, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneSmall8"] {
+    margin-left: 58.33333%;
+  }
+  /* line 165, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneSmall9"] {
+    margin-left: 66.66667%;
+  }
+  /* line 168, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneSmall10"] {
+    margin-left: 75%;
+  }
+  /* line 171, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneSmall11"] {
+    margin-left: 83.33333%;
+  }
+  /* line 174, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-left*="phoneSmall12"] {
+    margin-left: 91.66667%;
+  }
+  /* line 178, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneSmall0"] {
+    margin-right: 0;
+  }
+  /* line 181, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneSmall1"] {
+    margin-right: 8.33333%;
+  }
+  /* line 184, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneSmall2"] {
+    margin-right: 16.66667%;
+  }
+  /* line 187, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneSmall3"] {
+    margin-right: 25%;
+  }
+  /* line 190, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneSmall4"] {
+    margin-right: 33.33333%;
+  }
+  /* line 193, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneSmall5"] {
+    margin-right: 41.66667%;
+  }
+  /* line 196, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneSmall6"] {
+    margin-right: 50%;
+  }
+  /* line 199, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneSmall7"] {
+    margin-right: 50%;
+  }
+  /* line 202, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneSmall8"] {
+    margin-right: 58.33333%;
+  }
+  /* line 205, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneSmall9"] {
+    margin-right: 66.66667%;
+  }
+  /* line 208, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneSmall10"] {
+    margin-right: 75%;
+  }
+  /* line 211, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneSmall11"] {
+    margin-right: 83.33333%;
+  }
+  /* line 214, ../../sass/_hodor/lib/_grid.scss */
+  [class*="grid"] > [data-push-right*="phoneSmall12"] {
+    margin-right: 91.66667%;
+  }
+}
+/* line 1, ../../sass/_hodor/lib/_helper.scss */
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* line 7, ../../sass/_hodor/lib/_helper.scss */
+.formRow {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+/* line 10, ../../sass/_hodor/lib/_helper.scss */
+.formRow label {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+/* line 14, ../../sass/_hodor/lib/_helper.scss */
+.formRow small {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
 }

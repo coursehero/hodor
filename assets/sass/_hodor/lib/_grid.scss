@@ -324,30 +324,43 @@ $col11_12		:(100%/11);
 // Grid by Number
 @include makeGridByNumber(#{$gridName});
 
+@include breakpoint($mobile){
+	@include makeGridByNumber(mobile);
+}
 @include breakpoint($tablet){
 	@include makeGridByNumber(tablet);
-}
-@include breakpoint($phablet){
-	@include makeGridByNumber(phablet);
 }
 @include breakpoint($phone){
 	@include makeGridByNumber(phone);
 }
-
+@include breakpoint($phoneBig){
+	@include makeGridByNumber(phoneBig);
+}
+@include breakpoint($phoneSmall){
+	@include makeGridByNumber(phoneSmall);
+}
 
 // Column Sizes
 @include makeCol(#{$colName});
 @include makeOff(off);
 
+@include breakpoint($mobile){
+	@include makeCol(mobile);
+	@include makeOff(mobile);
+}
 @include breakpoint($tablet){
 	@include makeCol(tablet);
 	@include makeOff(tablet);
 }
-@include breakpoint($phablet){
-	@include makeCol(phablet);
-	@include makeOff(phablet);
-}
 @include breakpoint($phone){
 	@include makeCol(phone);
 	@include makeOff(phone);
+}
+@include breakpoint($phoneBig){
+	@include makeCol(phoneBig);
+	@include makeOff(phoneBig);
+}
+@include breakpoint($phoneSmall){
+	@include makeCol(phoneSmall);
+	@include makeOff(phoneSmall);
 }
